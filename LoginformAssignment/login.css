@@ -1,0 +1,81 @@
+.body {
+    background-color: green;
+    align-items: center;
+}
+.loginform{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 100px auto;
+    align-items: center;
+}
+h1{
+   margin-top: 0;
+   margin-bottom: 4px;
+    
+}
+p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.welcome{
+    margin-bottom: 10px;
+}
+.inputgroup {
+   outline: none;
+   border: 1px solid black;
+   border-radius: 5px ;
+   width: 90%;
+   height: 30px;
+   margin-top: 8px;
+   margin-bottom: 20px;
+   margin-left: auto; 
+}
+.inputgroup[type="email"]:focus{
+    border-color: blue;
+}
+.inputgroup[type="password"]:focus{
+    border-color: blue;
+} 
+.forgot{
+    display: inline-block;
+    text-align: right;
+    color: red;
+    margin-bottom: 12px;
+    
+}
+.forgot a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+
+.remember{
+    font-size: 15px;
+    margin-right: 50px;
+}
+.input[type="checkbox"]:checked + label{
+    color: greenyellow;
+}
+.submmit{
+    width: 100%;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.submmit:hover{
+    background-color: yellowgreen;
+}
+/* .signin a{
+    color: blueviolet;
+} */
+.signin a:hover{
+    color: greenyellow;
+}

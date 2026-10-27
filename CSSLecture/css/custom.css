@@ -89,7 +89,7 @@ input[type="checkbox"]:enabled + label{
     color: green;
 }
 
-input[type="checkboc"]:disabled + label{
+input[type="checkbox"]:disabled + label{
     color: gray;
 }
 input[type="checkbox"]:checked + label{
@@ -180,7 +180,7 @@ ul li:nth-child(4){
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
 }
-.gridOne,.gridTwo,.gridThree{
+.gridOne ,.gridTwo,.gridThree{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
